@@ -1,0 +1,89 @@
+/* common shared styles */
+body {
+  font-family: "Loto" sans-serif;
+  font-family: "Open sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
+/* nav relatad styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+.nav-title {
+  color: #0f0700;
+  font-size: 45px;
+  font-weight: 800;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: rgba(121, 110, 110, 0.836);
+}
+
+/*header related style*/
+.header {
+  background-color: antiquewhite;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner .profile-pic {
+  width: 500px;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.button-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
